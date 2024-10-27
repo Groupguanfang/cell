@@ -166,6 +166,9 @@
       "path": "packages/serve-static"
     },
     {
+      "path": "packages/swagger"
+    },
+    {
       "path": "packages/typeorm"
     },
     {

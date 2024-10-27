@@ -18,6 +18,7 @@
     "@celljs/cli": "3.1.0",
     "@celljs/component": "3.1.0",
     "@celljs/testing": "3.1.0",
+    "@celljs/swagger": "1.0.0",
     "@types/supertest": "^2.0.12",
     "supertest": "^6.2.4"
   },

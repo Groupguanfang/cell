@@ -1,0 +1,41 @@
+{
+  "name": "@celljs/swagger",
+  "version": "1.0.0",
+  "description": "Swagger module for Cell.js",
+  "author": "Naily Zero <zero@naily.cc> (https://naily.cc)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cell-component"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellbang/cell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cellbang/cell/issues"
+  },
+  "homepage": "https://github.com/cellbang/cell",
+  "files": [
+    "lib",
+    "src",
+    "cell.yml"
+  ],
+  "scripts": {
+    "lint": "cell-component lint",
+    "build": "cell-component build",
+    "watch": "cell-component watch",
+    "clean": "cell-component clean",
+    "test": "cell-component test:js"
+  },
+  "devDependencies": {
+    "@celljs/component": "3.1.0"
+  },
+  "dependencies": {
+    "@celljs/core": "3.1.0",
+    "@celljs/mvc": "^3.1.1",
+    "openapi-typescript": "^7.4.2"
+  }
+}
